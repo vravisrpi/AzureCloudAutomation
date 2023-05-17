@@ -1,0 +1,7 @@
+                                      
+set appId= "1b9e0425-1fec-4012*********"                                        
+set password= "ppA*********"                                 
+set tenantID= "892f7335-3***********"                                    
+        
+echo %appID%                                                                        
+az login --service-principal --username %appID% --password %PASSWORD% --tenant %tenantID%
